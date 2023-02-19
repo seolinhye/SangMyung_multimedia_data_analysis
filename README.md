@@ -1,1 +1,1 @@
-# SangMyung_multimedia_dataanalysis
+# SangMyung_multimedia_data_analysis
