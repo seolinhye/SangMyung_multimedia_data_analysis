@@ -1,7 +1,24 @@
 # SangMyung_multimedia_data_analysis
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a588c05c-57c4-4ba6-ace5-b35acbd725b2/Untitled.png)
+CFA Image의 ACPI를 통한 Image Demosaicking 성능 개선 
+- Edge의 방향성의 변화도에 기반한 Adaptive Color Plane Interpolation를 사용
+- Down sampling, Up sampling
+- CFA의 특성상 보간하지 못하는 boundary 영역은 제거하여 계산
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff07280a-2711-4d58-9ef6-2f12d2cc62c3/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea34c4c9-2fc2-450a-8f21-baeaffa3e76a/Untitled.png)
+
+Simulation Results 
+
+MOS 
+
+![image](https://github.com/seolinhye/SangMyung_multimedia_data_analysis/assets/74964809/c727bd12-61ef-4e8c-a00f-a915ef86a273)
+
+PSNR 1.88dB 개선
+
+![image](https://github.com/seolinhye/SangMyung_multimedia_data_analysis/assets/74964809/3403b595-7205-4913-9a63-aa4df079b6d8)
+
+SSIM 0.02 개선
+
+![image](https://github.com/seolinhye/SangMyung_multimedia_data_analysis/assets/74964809/2fc46403-aeb1-46a4-a816-fd6f51423438)
+
+
