@@ -7,7 +7,8 @@ CFA Image의 ACPI를 통한 Image Demosaicking 성능 개선
 
 
 
-Simulation Results 
+
+**Simulation Results **
 
 MOS 
 
